@@ -92,7 +92,7 @@ yarn dev
 
 You can start editing the page by modifying content in Kentico Kontent project. The page auto-updates as you edit the content, you just need to [publish the changes](https://docs.kontent.ai/tutorials/write-and-collaborate/publish-your-work/publish-content-items).
 
-// TODO Preview possibilities
+// TODO Preview possibilities - link blog example first
 
 ## Learn More
 
