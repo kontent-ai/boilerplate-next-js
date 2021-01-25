@@ -184,7 +184,7 @@ h1 {
 a {
   color: #F05A22;
   text-decoration: none;
-  transition: all 0.5s;
+  transition: color 0.5s;
 }
 
 a:hover {
@@ -212,7 +212,8 @@ a:hover {
   font-size: 16px;
   text-transform: uppercase;
   font-weight: bold;
-  transition: all 0.5s;
+  transition-duration: 0.5s;
+  transition-property: color, background-color;
 }
 
 .button a:hover {
