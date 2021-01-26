@@ -1,6 +1,6 @@
 # A Statically generated page using Next.js and Kontent
 
-[![Vercel build](https://img.shields.io/badge/Vercel-Build-green.svg?style=popout&logo=vercel)](https://vercel.com/kontent-devrel/kontent-boilerplate-next-js)
+[![Vercel build](https://img.shields.io/badge/Vercel-Build-green.svg?style=popout&logo=vercel)](https://vercel.com/chrastinaondra/kontent-boilerplate-next-js)
 
 [![GitHub Discussions](https://img.shields.io/badge/GitHub-Discussions-FE7A16.svg?style=popout&logo=github)](https://github.com/Kentico/Home/discussions)
 [![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-ASK%20NOW-FE7A16.svg?logo=stackoverflow&logoColor=white)](https://stackoverflow.com/tags/kentico-kontent)
