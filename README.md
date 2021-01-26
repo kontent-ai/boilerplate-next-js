@@ -17,7 +17,7 @@ This boilerplate showcases [Next.js](https://nextjs.org)'s Static Generation fea
 
 ### Deploy to Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/Kentico/kontent-boilerplate-next-js&project-name=kontent-boilerplate-next-js&repository-name=kontent-boilerplate-next-js&env=KONTENT_PROJECT_ID&envDescription=Required%20to%20connect%20the%20app%20with%20Kontent&envLink=https://github.com/Kentico/kontent-boilerplate-next-js%23step-3-set-up-environment-variables)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/Kentico/kontent-boilerplate-next-js&project-name=kontent-boilerplate-next-js&repository-name=kontent-boilerplate-next-js&env=KONTENT_PROJECT_ID&envDescription=Required%20to%20connect%20the%20app%20with%20Kontent&envLink=https://github.com/Kentico/kontent-boilerplate-next-js%23Environment-variables)
 
 ### Init project by command line
 
@@ -31,12 +31,14 @@ yarn create next-app --example https://github.com/Kentico/kontent-boilerplate-ne
 
 ## Code development
 
+### Environment variables
+
 1. Set up environment variables
     * Copy the `.env.local.template` file in this directory to `.env.local` (which will be ignored by Git):
 
-    ```sh
-    cp .env.local.template .env.local
-    ```
+        ```sh
+        cp .env.local.template .env.local
+        ```
 
 1. Run the development server:
 
