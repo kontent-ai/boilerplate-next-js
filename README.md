@@ -49,7 +49,7 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 ## Create your own data source project in Kontent
 
-// TODO - info about model used from <https://dev.to/kentico-kontent/jamstack-on-net-from-zero-to-hero-with-statiq-and-kontent-p4m>
+> The model is simple one content model end one item based on it. If you want content model details, checkout [Prepare content section in my article](https://dev.to/kentico-kontent/jamstack-on-net-from-zero-to-hero-with-statiq-and-kontent-p4m#prepare-content). It is describing the same content model but for different technology.
 
 ### Create Kontent project
 
@@ -92,7 +92,9 @@ yarn dev
 
 You can start editing the page by modifying content in Kentico Kontent project. The page auto-updates as you edit the content, you just need to [publish the changes](https://docs.kontent.ai/tutorials/write-and-collaborate/publish-your-work/publish-content-items).
 
-// TODO Preview possibilities - link blog example first
+#### Preview
+
+Next.js offers embedded possibility to preview unpublished content - [the preview mode](https://nextjs.org/docs/advanced-features/preview-mode). If you want to include this capability - follow the linked guide, or jum straight to the [Kontent example](https://github.com/vercel/next.js/tree/canary/examples/cms-kontent) that already includes implementation of the [preview](https://github.com/vercel/next.js/blob/canary/examples/cms-kontent/pages/api/preview.js) and [exit-preview](https://github.com/vercel/next.js/blob/canary/examples/cms-kontent/pages/api/exit-preview.js) API route.
 
 ## Learn More
 
