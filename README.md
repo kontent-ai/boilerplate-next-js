@@ -11,7 +11,7 @@ This boilerplate showcases [Next.js](https://nextjs.org)'s Static Generation fea
 
 ## Demo
 
-* <https://kontent-boilerplate-next-js.vercel.app/>
+* <https://kontent-boilerplate-next-js-rust.vercel.app/>
 
 ## Getting Started
 
