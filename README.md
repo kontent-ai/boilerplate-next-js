@@ -1,23 +1,23 @@
 # A Statically generated page using Next.js and Kontent
 
-[![Vercel build](https://img.shields.io/badge/Vercel-Build-green.svg?style=popout&logo=vercel)](https://vercel.com/kontent-devrel/kontent-boilerplate-next-js)
+[![Vercel build](https://img.shields.io/badge/Vercel-Build-green.svg?style=popout&logo=vercel)](https://vercel.com/chrastinaondra/kontent-boilerplate-next-js)
 
 [![GitHub Discussions](https://img.shields.io/badge/GitHub-Discussions-FE7A16.svg?style=popout&logo=github)](https://github.com/Kentico/Home/discussions)
 [![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-ASK%20NOW-FE7A16.svg?logo=stackoverflow&logoColor=white)](https://stackoverflow.com/tags/kentico-kontent)
 
 This boilerplate showcases [Next.js](https://nextjs.org)'s Static Generation feature using [Kentico Kontent](https://kontent.ai) as the data source.
 
-[![Screenshot](./screenshot.png)](https://kontent-boilerplate-next-js.vercel.app/)
+[![Screenshot](./screenshot.png)](https://kontent-boilerplate-next-js-rust.vercel.app)
 
 ## Demo
 
-* <https://kontent-boilerplate-next-js.vercel.app/>
+* <https://kontent-boilerplate-next-js-rust.vercel.app/>
 
 ## Getting Started
 
 ### Deploy to Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/Kentico/kontent-boilerplate-next-js&project-name=kontent-boilerplate-next-js&repository-name=kontent-boilerplate-next-js&env=KONTENT_PROJECT_ID&envDescription=Required%20to%20connect%20the%20app%20with%20Kontent&envLink=https://github.com/Kentico/kontent-boilerplate-next-js%23step-3-set-up-environment-variables)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/Kentico/kontent-boilerplate-next-js&project-name=kontent-boilerplate-next-js&repository-name=kontent-boilerplate-next-js&env=KONTENT_PROJECT_ID&envDescription=Required%20to%20connect%20the%20app%20with%20Kontent&envLink=https://github.com/Kentico/kontent-boilerplate-next-js%23Environment-variables)
 
 ### Init project by command line
 
@@ -31,12 +31,14 @@ yarn create next-app --example https://github.com/Kentico/kontent-boilerplate-ne
 
 ## Code development
 
+### Environment variables
+
 1. Set up environment variables
     * Copy the `.env.local.template` file in this directory to `.env.local` (which will be ignored by Git):
 
-    ```sh
-    cp .env.local.template .env.local
-    ```
+        ```sh
+        cp .env.local.template .env.local
+        ```
 
 1. Run the development server:
 
