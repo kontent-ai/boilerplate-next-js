@@ -7,7 +7,7 @@
 
 This boilerplate showcases [Next.js](https://nextjs.org)'s Static Generation feature using [Kentico Kontent](https://kontent.ai) as the data source.
 
-[![Screenshot](./screenshot.png)](https://kontent-boilerplate-next-js.vercel.app/)
+[![Screenshot](./screenshot.png)](https://kontent-boilerplate-next-js-rust.vercel.app)
 
 ## Demo
 
