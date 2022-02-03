@@ -62,7 +62,7 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 1. Create an account on Kontent
     * [Create an account on Kontent.ai](https://app.kontent.ai/sign-up?utm_source=nextjs_boilerplate_example&utm_medium=devrel).
-1. After signing up, [create an empty project](https://docs.kontent.ai/tutorials/set-up-kontent/projects/manage-projects#a-creating-projects).
+1. After signing up, [create an empty project](https://kontent.ai/learn/tutorials/manage-kontent/projects/manage-projects#a-create-projects).
 1. Go to the "Project Settings", select API keys and copy the following keys for further reference
     * Project ID
     * Management API key
@@ -75,7 +75,7 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
     
         kbm --action=restore --projectId=<Project ID> --apiKey=<Management API key> --zipFilename=kontent-backup
         ```
-1. Go to your Kontent project and [publish the imported item](https://docs.kontent.ai/tutorials/write-and-collaborate/publish-your-work/publish-content-items).
+1. Go to your Kontent project and [publish the imported item](https://kontent.ai/learn/tutorials/write-and-collaborate/publish-your-work/publish-content-items).
 
 ### Connect Kontent project with code base
 
@@ -94,7 +94,7 @@ yarn dev
 
 🎉 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying content in Kentico Kontent project. The page auto-updates as you edit the content, you just need to [publish the changes](https://docs.kontent.ai/tutorials/write-and-collaborate/publish-your-work/publish-content-items).
+You can start editing the page by modifying content in Kentico Kontent project. The page auto-updates as you edit the content, you just need to [publish the changes](https://kontent.ai/learn/tutorials/write-and-collaborate/publish-your-work/publish-content-items).
 
 #### Preview
 
