@@ -5,7 +5,7 @@
 [![GitHub Discussions](https://img.shields.io/badge/GitHub-Discussions-FE7A16.svg?style=popout&logo=github)](https://github.com/Kentico/Home/discussions)
 [![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-ASK%20NOW-FE7A16.svg?logo=stackoverflow&logoColor=white)](https://stackoverflow.com/tags/kentico-kontent)
 
-This boilerplate showcases [Next.js](https://nextjs.org)'s Static Generation feature using [Kentico Kontent](https://kontent.ai) as the data source.
+This boilerplate showcases [Next.js](https://nextjs.org)'s Static Generation feature using [Kontent by Kentico](https://kontent.ai) as the data source.
 
 [![Screenshot](./screenshot.png)](https://kontent-boilerplate-next-js-rust.vercel.app)
 
@@ -52,7 +52,7 @@ yarn create next-app --example https://github.com/Kentico/kontent-boilerplate-ne
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-> By default, the content is loaded from a shared Kentico Kontent project. If you want to use your own clone of the project so that you can customize it and experiment with Kontent, continue to the next section.
+> By default, the content is loaded from a shared Kontent project. If you want to use your own clone of the project so that you can customize it and experiment with Kontent, continue to the next section.
 
 ## Create your own data source project in Kontent
 
@@ -94,7 +94,7 @@ yarn dev
 
 🎉 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying content in Kentico Kontent project. The page auto-updates as you edit the content, you just need to [publish the changes](https://kontent.ai/learn/tutorials/write-and-collaborate/publish-your-work/publish-content-items).
+You can start editing the page by modifying content in Kontent project. The page auto-updates as you edit the content, you just need to [publish the changes](https://kontent.ai/learn/tutorials/write-and-collaborate/publish-your-work/publish-content-items).
 
 #### Preview
 
@@ -113,10 +113,10 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ### Related content
 
-- [Using the Next image component with Kentico Kontent assets](https://meeg.dev/blog/using-the-next-image-component-with-kentico-kontent-assets) by [Chris Meagher](https://github.com/CMeeg)
+- [Using the Next image component with Kontent assets](https://meeg.dev/blog/using-the-next-image-component-with-kentico-kontent-assets) by [Chris Meagher](https://github.com/CMeeg)
 - [Using Azure Pipelines to build and deploy a Next.js app to Azure app services](https://meeg.dev/blog/using-azure-pipelines-to-build-and-deploy-a-next-js-app-to-azure-app-services) by [Chris Meagher](https://github.com/CMeeg)
-- [Build and Deploy a Next.js Blog with Kentico Kontent and Vercel](https://dev.to/kentico-kontent/build-and-deploy-a-next-js-blog-with-kentico-kontent-and-vercel-5cp4) by [Ondřej Chrastina](https://github.com/Simply007)
-- [Dynamic routing with Kentico Kontent and NextJS](https://unplatform.io/stories/dynamic-routing-with-kentico-kontent-and-nextjs) by [Unplatform](https://unplatform.io/)
+- [Build and Deploy a Next.js Blog with Kontent and Vercel](https://dev.to/kentico-kontent/build-and-deploy-a-next-js-blog-with-kentico-kontent-and-vercel-5cp4) by [Ondřej Chrastina](https://github.com/Simply007)
+- [Dynamic routing with Kontent and NextJS](https://unplatform.io/stories/dynamic-routing-with-kentico-kontent-and-nextjs) by [Unplatform](https://unplatform.io/)
 - [Solving content preview with Next.js Preview Mode](https://rshackleton.co.uk/articles/solving-content-preview-with-next-js-preview-mode) by [Richard Shackleton](https://rshackleton.co.uk/)
 - [How to use Highlight.js on a Next.js site](https://dev.to/kentico-kontent/how-to-use-highlight-js-on-a-next-js-site-f9) by [Ondřej Polesný](https://github.com/ondrabus)
 - [Pre-rendered, server-rendered, or hybrid: Which should I use?
