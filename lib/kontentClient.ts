@@ -16,20 +16,18 @@ const client = new DeliveryClient({
   ],
 });
 
-function parseHeroItem(item) {
+function parseHeroUnit(item) {
   return {
-    headline: item.headline.value,
-    summary: item.summary.value,
-    cta_label: item.cta_label.value,
-    cta_url: item.cta_url.value,
+    headline: item.title.value,
+    summary: item.marketing_message.value
   }
 }
 
-export async function getHeroItem() {
+export async function getHeroUnit() {
   const heroResponse = await client
-    .item('hero')
+    .item('home_page_hero_unit')
     .toPromise()
 
-  return parseHeroItem(heroResponse.item);
+  return parseHeroUnit(heroResponse.item);
 }
 

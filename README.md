@@ -54,31 +54,16 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 > By default, the content is loaded from a shared Kontent project. If you want to use your own clone of the project so that you can customize it and experiment with Kontent, continue to the next section.
 
-## Create your own data source project in Kontent
-
-> The model is simple one content model end one item based on it. If you want content model details, checkout [Prepare content section in my article](https://dev.to/kentico-kontent/jamstack-on-net-from-zero-to-hero-with-statiq-and-kontent-p4m#prepare-content). It is describing the same content model but for different technology.
+## Create your own data source project in Kontenty
 
 ### Create Kontent project
 
-1. Create an account on Kontent
-    * [Create an account on Kontent.ai](https://app.kontent.ai/sign-up?utm_source=nextjs_boilerplate_example&utm_medium=devrel).
-1. After signing up, [create an empty project](https://kontent.ai/learn/tutorials/manage-kontent/projects/manage-projects#a-create-projects).
-1. Go to the "Project Settings", select API keys and copy the following keys for further reference
-    * Project ID
-    * Management API key
-1. Use the [Kontent Backup Manager](https://github.com/Kentico/kontent-backup-manager-js) and import data to the newly created project from [`kontent-backup.zip`](./kontent-backup.zip) file via command line:
-
-       ```sh
-        npm i -g @kentico/kontent-backup-manager@1.14.0
-        # or
-        yarn global add @kentico/kontent-backup-manager@1.14.0
-    
-        kbm --action=restore --projectId=<Project ID> --apiKey=<Management API key> --zipFilename=kontent-backup
-        ```
-1. Go to your Kontent project and [publish the imported item](https://kontent.ai/learn/tutorials/write-and-collaborate/publish-your-work/publish-content-items).
+To generate the clone of the sample project in order to be able to edit the content, use [Sample site generator](https://app.kontent.ai/sample-site-configuration) - use "CREATE A NEW SAMPLE PROJECT" for generating the project.
 
 ### Connect Kontent project with code base
 
+1. Access [the project listing on Kontent.ai application](https://app.kontent.ai/projects/).
+1. Select newly generated project (its name is about to be Sample Project M/DD/YYYY, H:MM:SS AM/PM).
 1. Set env variables on `.env.local`:
     * `KONTENT_PROJECT_ID` - Should be the Project ID in `Project settings` > `API keys`.
 
@@ -113,11 +98,11 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ### Related content
 
-- [Using the Next image component with Kontent assets](https://meeg.dev/blog/using-the-next-image-component-with-kentico-kontent-assets) by [Chris Meagher](https://github.com/CMeeg)
-- [Using Azure Pipelines to build and deploy a Next.js app to Azure app services](https://meeg.dev/blog/using-azure-pipelines-to-build-and-deploy-a-next-js-app-to-azure-app-services) by [Chris Meagher](https://github.com/CMeeg)
-- [Build and Deploy a Next.js Blog with Kontent and Vercel](https://dev.to/kentico-kontent/build-and-deploy-a-next-js-blog-with-kentico-kontent-and-vercel-5cp4) by [Ondřej Chrastina](https://github.com/Simply007)
-- [Dynamic routing with Kontent and NextJS](https://unplatform.io/stories/dynamic-routing-with-kentico-kontent-and-nextjs) by [Unplatform](https://unplatform.io/)
-- [Solving content preview with Next.js Preview Mode](https://rshackleton.co.uk/articles/solving-content-preview-with-next-js-preview-mode) by [Richard Shackleton](https://rshackleton.co.uk/)
-- [How to use Highlight.js on a Next.js site](https://dev.to/kentico-kontent/how-to-use-highlight-js-on-a-next-js-site-f9) by [Ondřej Polesný](https://github.com/ondrabus)
-- [Pre-rendered, server-rendered, or hybrid: Which should I use?
-](https://kontent.ai/blog/pre-rendered-server-rendered-or-hybrid-which-should-i-use) by [Tom Marshall](https://kontent.ai/blog/author/tom-marshall) 
+* [Using the Next image component with Kontent assets](https://meeg.dev/blog/using-the-next-image-component-with-kentico-kontent-assets) by [Chris Meagher](https://github.com/CMeeg)
+* [Using Azure Pipelines to build and deploy a Next.js app to Azure app services](https://meeg.dev/blog/using-azure-pipelines-to-build-and-deploy-a-next-js-app-to-azure-app-services) by [Chris Meagher](https://github.com/CMeeg)
+* [Build and Deploy a Next.js Blog with Kontent and Vercel](https://dev.to/kentico-kontent/build-and-deploy-a-next-js-blog-with-kentico-kontent-and-vercel-5cp4) by [Ondřej Chrastina](https://github.com/Simply007)
+* [Dynamic routing with Kontent and NextJS](https://unplatform.io/stories/dynamic-routing-with-kentico-kontent-and-nextjs) by [Unplatform](https://unplatform.io/)
+* [Solving content preview with Next.js Preview Mode](https://rshackleton.co.uk/articles/solving-content-preview-with-next-js-preview-mode) by [Richard Shackleton](https://rshackleton.co.uk/)
+* [How to use Highlight.js on a Next.js site](https://dev.to/kentico-kontent/how-to-use-highlight-js-on-a-next-js-site-f9) by [Ondřej Polesný](https://github.com/ondrabus)
+* [Pre-rendered, server-rendered, or hybrid: Which should I use?
+](https://kontent.ai/blog/pre-rendered-server-rendered-or-hybrid-which-should-i-use) by [Tom Marshall](https://kontent.ai/blog/author/tom-marshall)
