@@ -1,12 +1,13 @@
 // Kentico Kontent Delivery API
 
 
-import { DeliveryClient } from '@kentico/kontent-delivery'
+import { createDeliveryClient, camelCasePropertyNameResolver } from '@kontent-ai/delivery-sdk'
+import { HeroUnit } from '../models';
 import { name, version } from '../package.json'
 
 const sourceTrackingHeaderName = 'X-KC-SOURCE'
 
-const client = new DeliveryClient({
+const client = createDeliveryClient({
   projectId: process.env.KONTENT_PROJECT_ID,
   globalHeaders: (_queryConfig) => [
     {
@@ -14,20 +15,14 @@ const client = new DeliveryClient({
       value: `${name};${version}`,
     },
   ],
+  propertyNameResolver: camelCasePropertyNameResolver
 });
 
-function parseHeroUnit(item) {
-  return {
-    headline: item.title.value,
-    summary: item.marketing_message.value
-  }
-}
-
-export async function getHeroUnit() {
-  const heroResponse = await client
+export async function getHeroUnit() : Promise<HeroUnit> {
+  const response = await client
     .item('home_page_hero_unit')
     .toPromise()
 
-  return parseHeroUnit(heroResponse.item);
+  return (response.data.item as HeroUnit);
 }
 
