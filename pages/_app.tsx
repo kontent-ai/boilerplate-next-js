@@ -6,8 +6,8 @@ function MyApp({ Component, pageProps }) {
     <div className="layout">
       <Component {...pageProps} />
       <Head>
-        <title>Kontent Next.js boilerplate</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Kontent.ai Next.js boilerplate</title>
+        <link rel="icon" href="/favicon.png" />
       </Head>
     </div>
   )

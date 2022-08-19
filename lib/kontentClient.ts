@@ -1,4 +1,4 @@
-// Kentico Kontent Delivery API
+// Kontent.ai Delivery API
 
 
 import { createDeliveryClient, camelCasePropertyNameResolver } from '@kontent-ai/delivery-sdk'

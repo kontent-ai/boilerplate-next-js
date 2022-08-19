@@ -1,5 +1,5 @@
 {
-  "name": "@kentico/kontent-boilerplate-next-js",
+  "name": "@kontent-ai/boilerplate-next-js",
   "version": "0.2.0",
   "private": true,
   "scripts": {
