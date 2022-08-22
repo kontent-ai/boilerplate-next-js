@@ -1,6 +1,6 @@
 # A Statically generated page using Next.js and Kontent
 
-[![Vercel build](https://img.shields.io/badge/Vercel-Build-green.svg?style=popout&logo=vercel)](https://vercel.com/chrastinaondra/kontent-boilerplate-next-js)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/da530779-ea55-4d80-9d0c-974f1fc87a34/deploy-status)](https://app.netlify.com/sites/kontent-ai-boilerplate-next-js/deploys)
 
 [![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-ASK%20NOW-FE7A16.svg?logo=stackoverflow&logoColor=white)](https://stackoverflow.com/tags/kontent-ai)
 [![Discord](https://img.shields.io/discord/821885171984891914?color=%237289DA&label=Kontent.ai%20Discord&logo=discord)](https://discord.gg/SKCxwPtevJ)
