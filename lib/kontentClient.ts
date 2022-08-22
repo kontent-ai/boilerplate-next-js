@@ -3,7 +3,7 @@
 
 import { createDeliveryClient, camelCasePropertyNameResolver } from '@kontent-ai/delivery-sdk'
 import { HeroUnit } from '../models';
-import { name, version } from '../package.json'
+import * as packageInfo from '../package.json'
 
 const sourceTrackingHeaderName = 'X-KC-SOURCE'
 
@@ -12,7 +12,7 @@ const client = createDeliveryClient({
   globalHeaders: (_queryConfig) => [
     {
       header: sourceTrackingHeaderName,
-      value: `${name};${version}`,
+      value: `${packageInfo?.name};${packageInfo?.version}`,
     },
   ],
   propertyNameResolver: camelCasePropertyNameResolver
