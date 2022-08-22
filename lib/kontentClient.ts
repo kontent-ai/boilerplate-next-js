@@ -20,9 +20,9 @@ const client = createDeliveryClient({
 
 export async function getHeroUnit() : Promise<HeroUnit> {
   const response = await client
-    .item('home_page_hero_unit')
+    .item<HeroUnit>('home_page_hero_unit')
     .toPromise()
 
-  return (response.data.item as HeroUnit);
+  return (response.data.item);
 }
 
