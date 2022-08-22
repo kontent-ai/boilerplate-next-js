@@ -7,17 +7,19 @@
 
 This boilerplate showcases [Next.js](https://nextjs.org)'s Static Generation feature using [Kontent.ai](https://kontent.ai) as the data source.
 
-[![Screenshot](./screenshot.png)](https://kontent-boilerplate-next-js-rust.vercel.app)
+[![Screenshot](./screenshot.png)](https://kontent-ai-boilerplate-next-js.netlify.app/)
 
 ## Demo
 
-* <https://kontent-boilerplate-next-js-rust.vercel.app/>
+* <https://kontent-ai-boilerplate-next-js.netlify.app/>
 
 ## Getting Started
 
-### Deploy to Vercel
+### Deploy
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/kontent-ai/boilerplate-next-js&project-name=kontent-boilerplate-next-js&repository-name=kontent-boilerplate-next-js&env=KONTENT_PROJECT_ID&envDescription=Required%20to%20connect%20the%20app%20with%20Kontent&envLink=https://github.com/kontent-ai/boilerplate-next-js%23Environment-variables)
+
+[![Deploy on Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/kontent-ai/boilerplate-next-js)
 
 ### Init project by command line
 
