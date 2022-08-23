@@ -181,19 +181,9 @@ h1 {
   }
 }
 
-a {
-  color: #F05A22;
-  text-decoration: none;
-  transition: color 0.5s;
-}
-
-a:hover {
-  color: #CC4C1C;
-}
-
 .append-dot:after {
   content: ".";
-  color: #F05A22;
+  color: #3DCCA8;
 }
 
 
@@ -202,7 +192,7 @@ a:hover {
 }
 
 .button a {
-  background-color: #B72929;
+  background-color: #6956CC;
   border: none;
   color: #FFFFFF;
   padding: 15px 32px;
@@ -218,5 +208,5 @@ a:hover {
 
 .button a:hover {
   color: #B72929;
-  background-color: #FFFFFF;
+  background-color: #231F20;
 }
