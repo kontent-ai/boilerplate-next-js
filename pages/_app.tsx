@@ -1,7 +1,8 @@
 import '../styles/globals.css'
 import Head from 'next/head'
+import { AppProps } from 'next/app'
 
-function MyApp({ Component, pageProps }) {
+export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <div className="layout">
       <Component {...pageProps} />
@@ -13,4 +14,3 @@ function MyApp({ Component, pageProps }) {
   )
 }
 
-export default MyApp
