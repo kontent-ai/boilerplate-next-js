@@ -39,6 +39,7 @@ yarn create next-app --example https://github.com/kontent-ai/boilerplate-next-js
     * Copy the `.env.local.template` file in this directory to `.env.local` (which will be ignored by Git):
 
         ```sh
+        cp .env.local.template .env.local   
         ```
 
 1. Run the development server:
