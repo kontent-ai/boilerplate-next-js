@@ -1,7 +1,6 @@
 {
   "name": "@kontent-ai/boilerplate-next-js",
-  "version": "0.2.0",
-  "private": true,
+  "version": "0.3.0",
   "scripts": {
     "dev": "next dev",
     "lint": "next lint",
@@ -10,16 +9,16 @@
     "start": "next start"
   },
   "dependencies": {
-    "@kontent-ai/delivery-sdk": "^12.0.2",
-    "next": "12.2.5",
+    "@kontent-ai/delivery-sdk": "^12.4.0",
+    "next": "13.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@types/node": "^18.7.11",
-    "@types/react": "^18.0.17",
-    "eslint": "8.22.0",
-    "eslint-config-next": "12.2.5",
-    "typescript": "^4.7.4"
+    "@types/node": "^18.11.8",
+    "@types/react": "^18.0.24",
+    "eslint": "^8.26.0",
+    "eslint-config-next": "^13.0.0",
+    "typescript": "^4.8.4"
   }
 }
