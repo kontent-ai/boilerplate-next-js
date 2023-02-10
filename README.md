@@ -91,7 +91,7 @@ Next.js offers embedded possibility to preview unpublished content - [the previe
 
 To learn more about Next.js, take a look at the following resources:
 
-* [Kontent.ai + Next.js blog example](https://github.com/vercel/next.js/tree/canary/examples/cms-kontent#readme) - complex sample project setup including i.e. preview functionality, listing, Tailwind CSS, ...
+* [Kontent.ai + Next.js blog example](https://github.com/vercel/next.js/tree/canary/examples/cms-kontent-ai#readme) - complex sample project setup including i.e. preview functionality, listing, Tailwind CSS, ...
 * [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 * [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 * [This Mission: Next.js from the Ground Up](https://explorers.netlify.com/learn/nextjs)
