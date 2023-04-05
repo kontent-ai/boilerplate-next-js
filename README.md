@@ -85,13 +85,13 @@ You can start editing the page by modifying content in Kontent.ai project. The p
 
 #### Preview
 
-Next.js offers embedded possibility to preview unpublished content - [the preview mode](https://nextjs.org/docs/advanced-features/preview-mode). If you want to include this capability - follow the linked guide, or jum straight to the [Kontent.ai example](https://github.com/vercel/next.js/tree/canary/examples/cms-kontent) that already includes implementation of the [preview](https://github.com/vercel/next.js/blob/canary/examples/cms-kontent/pages/api/preview.js) and [exit-preview](https://github.com/vercel/next.js/blob/canary/examples/cms-kontent/pages/api/exit-preview.js) API route.
+Next.js offers embedded possibility to preview unpublished content - [the preview mode](https://nextjs.org/docs/advanced-features/preview-mode). If you want to include this capability - follow the linked guide, or jum straight to the [Kontent.ai example](https://github.com/vercel/next.js/tree/canary/examples/cms-kontent-ai) that already includes implementation of the [preview](https://github.com/vercel/next.js/blob/canary/examples/cms-kontent-ai/pages/api/preview.js) and [exit-preview](https://github.com/vercel/next.js/blob/canary/examples/cms-kontent-ai/pages/api/exit-preview.js) API route.
 
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
 
-* [Kontent.ai + Next.js blog example](https://github.com/vercel/next.js/tree/canary/examples/cms-kontent#readme) - complex sample project setup including i.e. preview functionality, listing, Tailwind CSS, ...
+* [Kontent.ai + Next.js blog example](https://github.com/vercel/next.js/tree/canary/examples/cms-kontent-ai#readme) - complex sample project setup including i.e. preview functionality, listing, Tailwind CSS, ...
 * [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 * [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 * [This Mission: Next.js from the Ground Up](https://explorers.netlify.com/learn/nextjs)
